@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:урок_24._08._24"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <DockPanel>
         <Menu DockPanel.Dock="Top" IsMainMenu="True">
         </Menu>
@@ -23,17 +23,21 @@
                             осенью же клоки шерсти на его ногах, животе, извалявшись в грязи и потом высохнув, 
                             превращались в сотни коричневых, болтающихся сталактитов.
                             <LineBreak/>
-                            Уши<TextBox x:Name="BarbosaTextBox" Background="gray">
+                            Уши
+                            <TextBox x:Name="BarbosaTextBox" Background="gray">
                                 Барбоса
-                            </TextBox>вечно носили на себе следы «боевых схваток»,
+                            </TextBox>
+                            вечно носили на себе следы «боевых схваток»,
                             а в особенно горячие периоды собачьего флирта прямо-таки превращались в причудливые фестоны.
                             <LineBreak/>
                             Таких собак, как он, искони и всюду зовут Барбосами. Изредка только, да и то в виде исключения, их называют Дружками.
                             <LineBreak/>
-                            Эти собаки, если не ошибаюсь, происходят от простых дворняжек и<TextBox x:Name="DogTextBox" Background="gray">
+                            Эти собаки, если не ошибаюсь, происходят от простых дворняжек и
+                            <TextBox x:Name="DogTextBox" Background="gray">
                                 овчарок
                             </TextBox>.
-                            Они отличаются верностью, независимым характером и тонким<TextBox x:Name="LisenTextBox" Background="gray">
+                            Они отличаются верностью, независимым характером и тонким
+                            <TextBox x:Name="LisenTextBox" Background="gray">
                                 слухом
                             </TextBox>.
                         </Paragraph>

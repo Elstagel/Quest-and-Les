@@ -24,25 +24,25 @@ namespace урок_24._08._24
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 
-			if (BarbosaTextBox.Text == "Барбоса")
-			{ 
-			BarbosaTextBox.Background = Brushes.LightGreen;
+			if (BarbosaTextBox.Text.ToLower() == "барбоса")
+			{
+				BarbosaTextBox.Background = Brushes.LightGreen;
 			}
 			else BarbosaTextBox.Background = Brushes.Red;
 
-			if (DogTextBox.Text == "овчарок")
+			if (DogTextBox.Text.ToLower() == "овчарок")
 			{
 				DogTextBox.Background = Brushes.LightGreen;
 			}
 			else DogTextBox.Background = Brushes.Red;
 
-			if (LisenTextBox.Text == "слухом")
+			if (LisenTextBox.Text.ToLower() == "слухом")
 			{
 				LisenTextBox.Background = Brushes.LightGreen;
 			}
 			else LisenTextBox.Background = Brushes.Red;
 
-
+			
 			
 		}
 	}
